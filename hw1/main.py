@@ -14,7 +14,7 @@ def checkInput(side):
 			return False	
 		value = int(side)
 		#Check negative
-		if value < 0:
+		if value <= 0:
 			print "Negative int is not accepted"
 			return False
 	#Exception means input is not int
